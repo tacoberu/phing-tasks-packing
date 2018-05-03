@@ -1,0 +1,30 @@
+{
+    "name": "tacoberu/phing-tasks-packing",
+    "description": "Some phing tasks for make rpm, deb, etc packages.",
+    "type": "library",
+    "keywords": ["build", "tool", "task", "phing", "rpm", "deb"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Takáč",
+            "email": "martin@takac.name",
+            "homepage": "http://martin.takac.name"
+        }
+    ],
+    "repositories": [
+		{
+            "type": "vcs",
+            "url": "https://github.com/tacoberu/php-process.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "tacoberu/php-process": "dev-master"
+    },
+    "require-dev": {
+        "phing/phing": "dev-master"
+    },
+    "autoload": {
+        "classmap": ["main/"]
+    }
+}
