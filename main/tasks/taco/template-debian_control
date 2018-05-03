@@ -1,0 +1,10 @@
+Package: ${Name}
+Version: ${Version}.${Release}
+Section: ${Group}
+Priority: ${Priority}
+Architecture: ${BuildArch}
+Maintainer: ${Maintainer}
+Installed-Size: 123
+Homepage: ${Homepage}
+${Depends}
+Description: ${Description}

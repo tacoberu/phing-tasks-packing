@@ -1,0 +1,42 @@
+# Copyright (c) since ${Year} ${Author}
+# License: ${License}
+#
+# Please, preserve the changelog entries.
+#
+Summary: ${Summary}
+Name: ${Name}
+Version: ${Version}
+Release: ${Release}
+License: ${License}
+Group: ${Group}
+BuildArch: ${BuildArch}
+
+${Sources}
+
+
+%description
+${Description}
+
+
+%prep
+${Preparing}
+
+
+%build
+${Build}
+
+
+%install
+${Install}
+
+
+%clean
+${Clean}
+
+
+%files
+${Files}
+
+
+%changelog
+${Changelog}
