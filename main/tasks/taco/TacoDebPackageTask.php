@@ -591,7 +591,7 @@ class TacoDebPackageTask extends MatchingTask
 	{
 		$depends = '';
 		if ($this->buildSection('Depends')) {
-			$depends = 'Depeneds: ' . $this->buildSection('Depends');
+			$depends = 'Depends: ' . $this->buildSection('Depends');
 		}
 		$content = file_get_contents(__dir__ . '/template-debian_control');
 		$content = strtr($content, array(
